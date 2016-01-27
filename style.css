@@ -1,0 +1,71 @@
+.content-header-container {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  position: relative;
+  margin-top: 40pt;
+  margin-bottom: 40pt;
+}
+
+  .content-header-container .content-header {
+    font-size: 24pt;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+    text-align: center;
+  }
+
+  .content-header-container .content-lesson-tag {
+    font-size: 12pt;
+    font-family: "Roboto";
+    font-weight: 100;
+    background: #6AC780;
+    display: inline-block;
+    padding: 7pt 40pt;
+    color: white;
+    position: absolute;
+    top: -20px;
+    left: 100pt;
+    right: 100pt;
+    text-align: center;
+  }
+
+.summary-container {
+  background: #6AC780;
+  position: relative;
+  margin-bottom: 20pt;
+}
+
+  .summary-container .summary {
+    padding: 24pt 20px 20pt;
+    color: white;
+  }
+
+  .summary-container .summary-tag {
+    font-size: 12pt;
+    font-family: "Roboto";
+    font-weight: 100;
+    background: #434343;
+    display: inline-block;
+    padding: 7pt 40pt;
+    color: white;
+    position: absolute;
+    top: -20px;
+    left: 100pt;
+    right: 100pt;
+    text-align: center;
+  }
+
+.image-container {
+  margin-bottom: 25pt;
+}
+
+  .image-container img {
+    width: 100%;
+    margin-bottom: 0;
+    display: block;
+  }
+
+  .image-container .image-supplemental-text {
+    background: #6AC780;
+    color: white;
+    padding: 20pt;
+  }
