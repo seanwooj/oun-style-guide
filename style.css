@@ -1,3 +1,18 @@
+.content-lesson-tag, .summary-tag {
+  font-size: 12pt;
+  font-family: "Roboto";
+  font-weight: 100;
+  display: inline-block;
+  padding: 7pt 40pt;
+  color: white;
+  position: absolute;
+  top: -16pt;
+  text-align: center;
+  margin: 0 auto;
+  width: 50pt;
+  right: 0; left: 0;
+}
+
 .content-header-container {
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
@@ -14,18 +29,7 @@
   }
 
   .content-header-container .content-lesson-tag {
-    font-size: 12pt;
-    font-family: "Roboto";
-    font-weight: 100;
     background: #6AC780;
-    display: inline-block;
-    padding: 7pt 40pt;
-    color: white;
-    position: absolute;
-    top: -20px;
-    left: 100pt;
-    right: 100pt;
-    text-align: center;
   }
 
 .summary-container {
@@ -40,18 +44,7 @@
   }
 
   .summary-container .summary-tag {
-    font-size: 12pt;
-    font-family: "Roboto";
-    font-weight: 100;
     background: #434343;
-    display: inline-block;
-    padding: 7pt 40pt;
-    color: white;
-    position: absolute;
-    top: -20px;
-    left: 100pt;
-    right: 100pt;
-    text-align: center;
   }
 
 .image-container {
