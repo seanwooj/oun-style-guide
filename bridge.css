@@ -44,6 +44,8 @@
     .bridge-content-items {
       margin: 0;
       list-style: none;
+      overflow: hidden;
+      -webkit-animation-duration: .5s;
     }
 
       .bridge-content-items li {
@@ -132,3 +134,15 @@
             .bridge-subsections .section-item .content-item-subtitle {
               color: black;
             }
+
+
+
+/* Collapsing and expanding navigation put here for cleanliness */
+
+.content-item.closed > .bridge-content-items {
+  height: 0;
+}
+
+.content-item > .bridge-content-items {
+  height: auto;
+}

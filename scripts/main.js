@@ -4,4 +4,8 @@ $(function () {
   $('.toggle-bridge').on('click', function(){
     $('.bridge-menu').toggle('slide');
   });
+
+  $('.content-item-expansion-area').on('click', function (e) {
+    $(e.target).closest('.content-item').toggleClass('closed');
+  });
 });
