@@ -11,6 +11,7 @@
   
   .bridge-top-area {
     padding: 0 18pt;
+    position: relative;
   }
 
     .bridge-home-button {
@@ -20,6 +21,11 @@
       font-family: 'Roboto';
       display: inline-block;
       margin: 10pt 0;
+    }
+
+    .close-bridge {
+      position: absolute;
+      right: 10pt; top: 10pt;
     }
 
     .bridge-title {
