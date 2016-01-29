@@ -1,0 +1,21 @@
+.top-bar {
+  background: #3A3A3A;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+  .top-bar .open-bridge{
+    position: absolute;
+    left: 12pt;
+    top: 12pt;
+  }
+
+  .top-bar .top-bar-title {
+    font-size: 14pt;
+    padding: 12pt;
+    color: white;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+  }
