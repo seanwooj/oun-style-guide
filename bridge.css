@@ -1,0 +1,103 @@
+.bridge-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: #434343;
+  height: 100%;
+  width: 240pt;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.39);
+}
+  
+  .bridge-top-area {
+
+  }
+
+    .bridge-title {
+      font-family: "Roboto";
+      font-weight: 100;
+      font-size: 20pt;
+      color: white;
+      line-height: 24pt;
+    }
+
+  .bridge-navigation-area {
+    background: white;
+    overflow: scroll;
+  }
+
+    .bridge-content-items {
+      margin: 0;
+      list-style: none;
+    }
+
+      .bridge-content-items li {
+        margin-bottom: 0;
+      }
+
+    .bridge-lessons {
+      
+    }
+
+      .content-item {
+        
+      }
+
+        .content-item-wrapper {
+          background: #797979;
+          box-shadow: 0pt 1pt 2pt 0pt rgba(0,0,0,0.50);
+        }
+
+        .content-item-title-area {
+          padding: 18pt;
+        }
+
+          .content-item-title {
+            font-family: 'Roboto';
+            font-size: 18pt;
+            color: #FFFFFF;
+            line-height: 21pt;
+            margin-bottom: 0;
+          }
+
+          .content-item-subtitle {
+            font-size: 12pt;
+            color: white;
+            line-height: 16pt;
+            margin-bottom: 0;
+          }
+
+        .content-item-expansion-area {
+          width: 30pt;
+          height: 100%;
+          background: rgba(0,0,0,0.2);
+          content: '';
+          float: right;
+        }
+
+        .bridge-sections {
+          margin-left: 0;
+        }
+
+          .section-item {
+
+          }
+
+            .bridge-sections .section-item .content-item-wrapper {
+              background: #919191;
+            }
+
+
+
+          .bridge-subsections {
+
+          }
+
+            .bridge-subsections .section-item .content-item-wrapper {
+              background: #F4F4F4;
+            }
+
+            .bridge-subsections .section-item .content-item-title,
+            .bridge-subsections .section-item .content-item-subtitle {
+              color: black;
+            }

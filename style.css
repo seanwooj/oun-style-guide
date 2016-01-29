@@ -64,32 +64,3 @@
   }
 
 
-.bridge-menu {
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  background: #434343;
-  height: 100%;
-}
-
-  .bridge-top-area {
-
-  }
-
-    .bridge-title {
-
-    }
-
-    .bridge-progress {
-
-    }
-
-      .bridge-progress-fraction {
-
-      }
-
-      .bridge-progress-metric {
-
-      }
