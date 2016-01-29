@@ -45,7 +45,6 @@
       margin: 0;
       list-style: none;
       overflow: hidden;
-      -webkit-animation-duration: .5s;
     }
 
       .bridge-content-items li {
